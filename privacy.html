@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politique de confidentialité – PDFPac Chantier</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f7f9;
+      --bg-alt: #ffffff;
+      --text: #1f2933;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      padding: 24px 12px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 900px;
+      background-color: var(--bg-alt);
+      border-radius: 16px;
+      box-shadow:
+        0 18px 45px rgba(15, 23, 42, 0.08),
+        0 0 0 1px rgba(148, 163, 184, 0.25);
+      padding: 28px 20px;
+    }
+
+    @media (min-width: 768px) {
+      .card {
+        padding: 40px 40px 36px;
+      }
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+
+    .app-name {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin: 0 0 4px;
+    }
+
+    .subtitle {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 10px;
+      padding: 4px 10px;
+      font-size: 0.75rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      background: linear-gradient(to right, rgba(37, 99, 235, 0.06), rgba(59, 130, 246, 0.02));
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      margin: 0;
+      color: var(--text);
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      margin-top: 22px;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    p {
+      margin-top: 4px;
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 4px;
+      margin-bottom: 10px;
+    }
+
+    li {
+      margin-bottom: 4px;
+      font-size: 0.95rem;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    .section {
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section:last-of-type {
+      border-bottom: none;
+    }
+
+    .note {
+      display: inline-block;
+      margin-top: 6px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .contact {
+      margin-top: 8px;
+      font-size: 0.95rem;
+    }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 18px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <main class="card" role="main">
+      <header>
+        <h1>Politique de confidentialité – PDFPac Chantier</h1>
+        <p class="subtitle">
+          Cette politique décrit la manière dont l’application iOS <strong>ChantierScan PDF</strong> traite vos données.
+        </p>
+        <div class="badge">
+          <span>Application iOS</span>
+          <span aria-hidden="true">•</span>
+          <span>Stockage local uniquement</span>
+        </div>
+      </header>
+
+      <section class="section" aria-labelledby="qui-sommes-nous">
+        <h2 id="qui-sommes-nous">1. Qui sommes-nous&nbsp;?</h2>
+        <p>
+          L’application <strong>ChantierScan PDF</strong> (également désignée «&nbsp;l’App&nbsp;» ou «&nbsp;PDFPac Chantier&nbsp;») est un outil à destination des
+          professionnels du bâtiment pour gérer leurs chantiers, documenter les travaux et générer des
+          comptes-rendus au format PDF directement sur un iPhone ou un iPad (iOS).
+        </p>
+        <p>
+          L’App est conçue pour fonctionner <strong>sans serveur distant</strong>&nbsp;: toutes les informations restent stockées
+          localement sur l’appareil de l’utilisateur.
+        </p>
+      </section>
+
+      <section class="section" aria-labelledby="donnees-collectees">
+        <h2 id="donnees-collectees">2. Données collectées et traitées dans l’App</h2>
+        <p>
+          ChantierScan PDF permet à l’utilisateur de créer et gérer des dossiers de chantier. Dans ce cadre,
+          les types de données suivants peuvent être saisis et conservés <strong>exclusivement sur l’appareil</strong>&nbsp;:
+        </p>
+        <ul>
+          <li><strong>Demandes / dossiers de chantier</strong> (intitulés, descriptions, références, etc.)</li>
+          <li><strong>Photos de chantier</strong> ajoutées par l’utilisateur depuis l’appareil</li>
+          <li><strong>Documents PDF</strong> associés aux chantiers</li>
+          <li><strong>Mesures et annotations sur les photos</strong> (flèches, textes, commentaires)</li>
+          <li><strong>Informations «&nbsp;candidat&nbsp;»</strong> (prix TTC hors aides, type de chantier, surfaces, aides, financement, etc.)</li>
+          <li><strong>PDF récapitulatifs générés</strong> par l’App (documents de synthèse, devis, rapports, etc.)</li>
+        </ul>
+        <p>
+          Toutes ces données sont créées et contrôlées par l’utilisateur et <strong>ne quittent pas l’appareil</strong>,
+          sauf si l’utilisateur choisit explicitement de les partager (voir ci-dessous).
+        </p>
+      </section>
+
+      <section class="section" aria-labelledby="aucune-collecte-serveur">
+        <h2 id="aucune-collecte-serveur">3. Aucune collecte côté serveur</h2>
+        <p>
+          ChantierScan PDF ne dispose d’<strong>aucun backend</strong> et ne met en place <strong>aucun transfert automatique</strong> de données vers un serveur
+          externe, qu’il s’agisse d’un serveur que nous contrôlons ou d’un prestataire tiers.
+        </p>
+        <p>
+          Par conséquent&nbsp;:
+        </p>
+        <ul>
+          <li>Nous <strong>n’envoyons</strong> aucune donnée de vos chantiers vers un serveur distant.</li>
+          <li>Nous <strong>ne vendons</strong>, <strong>ne louons</strong> et <strong>ne partageons</strong> aucune donnée personnelle ou professionnelle à des tiers.</li>
+          <li>Il n’y a pas de suivi analytique basé sur vos données de chantier.</li>
+        </ul>
+        <p>
+          Les seuls envois de données ont lieu à l’<strong>initiative explicite de l’utilisateur</strong>, par exemple&nbsp;:
+        </p>
+        <ul>
+          <li>en partageant un PDF récapitulatif par e‑mail, message ou autre application&nbsp;;</li>
+          <li>en enregistrant un PDF dans l’app Fichiers, sur un service cloud, ou via AirDrop&nbsp;;</li>
+          <li>en exportant les photos ou documents depuis l’appareil.</li>
+        </ul>
+      </section>
+
+      <section class="section" aria-labelledby="base-legale">
+        <h2 id="base-legale">4. Base légale et finalité du traitement</h2>
+        <p>
+          Les traitements réalisés par ChantierScan PDF reposent sur la base légale de
+          <strong>l’exécution du service demandé par l’utilisateur</strong>&nbsp;:
+        </p>
+        <ul>
+          <li>gestion et suivi des chantiers&nbsp;;</li>
+          <li>collecte et organisation des informations nécessaires au chantier&nbsp;;</li>
+          <li>génération de documents de synthèse au format PDF&nbsp;;</li>
+          <li>préparation et partage, à l’initiative de l’utilisateur, de ces documents avec ses clients, partenaires ou équipes.</li>
+        </ul>
+        <p>
+          Les données sont utilisées uniquement pour permettre le bon fonctionnement des fonctionnalités de l’App.
+        </p>
+      </section>
+
+      <section class="section" aria-labelledby="partage-donnees">
+        <h2 id="partage-donnees">5. Partage des données</h2>
+        <p>
+          Nous ne partageons pas vos données de chantier avec des tiers, sauf dans les cas où <strong>vous décidez
+          volontairement</strong> de partager un document ou une information, par exemple&nbsp;:
+        </p>
+        <ul>
+          <li>en envoyant un PDF récapitulatif par e‑mail à un client ou partenaire&nbsp;;</li>
+          <li>en exportant un document vers une autre application (messagerie, stockage cloud, etc.).</li>
+        </ul>
+        <p>
+          Dans ces cas, le partage se fait directement depuis votre appareil vers le destinataire ou le service que
+          vous choisissez (par exemple via la feuille de partage iOS). Nous n’intervenons pas dans ce flux et n’y
+          avons pas accès.
+        </p>
+      </section>
+
+      <section class="section" aria-labelledby="conservation-suppression">
+        <h2 id="conservation-suppression">6. Conservation et suppression des données</h2>
+        <p>
+          Les données de vos chantiers (demandes, photos, mesures, PDF, commentaires, etc.) sont
+          <strong>conservées uniquement sur votre appareil iOS</strong> et restent disponibles tant que&nbsp;:
+        </p>
+        <ul>
+          <li>vous conservez l’App installée sur l’appareil&nbsp;;</li>
+          <li>vous ne les supprimez pas manuellement depuis l’App ou via les réglages de l’appareil.</li>
+        </ul>
+        <p>
+          Pour supprimer toutes vos données stockées par ChantierScan PDF sur un appareil donné, vous pouvez&nbsp;:
+        </p>
+        <ul>
+          <li><strong>supprimer les données depuis l’App</strong> (lorsque la fonctionnalité est disponible)&nbsp;; et/ou</li>
+          <li><strong>désinstaller l’App</strong> depuis votre appareil iOS (ce qui supprime les données associées à l’application sur cet appareil).</li>
+        </ul>
+        <p class="note">
+          Attention&nbsp;: si vous avez exporté ou partagé des PDF ou documents vers d’autres services (e‑mail, cloud,
+          messagerie, etc.), ces copies ne sont pas supprimées automatiquement lorsque vous supprimez l’App.
+        </p>
+      </section>
+
+      <section class="section" aria-labelledby="droits-utilisateur">
+        <h2 id="droits-utilisateur">7. Vos droits et questions relatives à la confidentialité</h2>
+        <p>
+          Même si ChantierScan PDF ne stocke pas vos données sur un serveur, nous restons disponibles pour répondre à
+          toute question relative à la confidentialité, à la sécurité de vos données ou à la présente politique.
+        </p>
+        <p>
+          Vous pouvez notamment&nbsp;:
+        </p>
+        <ul>
+          <li>nous demander des précisions sur la manière dont l’App fonctionne et traite vos données&nbsp;;</li>
+          <li>nous signaler tout problème ou comportement que vous jugez anormal&nbsp;;</li>
+          <li>nous faire part de vos demandes générales liées à la protection de la vie privée.</li>
+        </ul>
+        <p class="contact">
+          Pour exercer ces droits ou poser une question, vous pouvez nous contacter à l’adresse suivante&nbsp;:
+          <br>
+          <a href="mailto:ELIORMARRACHE@GMAIL.COM">ELIORMARRACHE@GMAIL.COM</a>
+        </p>
+      </section>
+
+      <section class="section" aria-labelledby="modifications">
+        <h2 id="modifications">8. Modifications de la présente politique</h2>
+        <p>
+          La présente politique de confidentialité peut être mise à jour pour tenir compte de l’évolution de l’App,
+          des exigences légales ou de bonnes pratiques en matière de protection des données.
+        </p>
+        <p>
+          En cas de modification importante, une version mise à jour sera publiée et accessible depuis l’App ou la page
+          de présentation de l’App sur l’App Store.
+        </p>
+      </section>
+
+      <div class="footer">
+        Dernière mise à jour&nbsp;: 3 mars 2026
+      </div>
+    </main>
+  </div>
+</body>
+</html>
+
